@@ -24,11 +24,7 @@ export default function App() {
       <Section title={"Statistics"}>
         <Statistics title="Upload stats" stats={uploadStats} />
       </Section>
-      {/* <Section>
-        <Statistics stats={uploadStats} />
-      </Section> */}
-
-      <Section title={"Friend"}>
+          <Section title={"Friend"}>
         <FriendList friends={friends} />
       </Section>
 
